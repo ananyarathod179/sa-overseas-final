@@ -26,11 +26,10 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <img 
-              src="/manus-storage/sa-overseas-logo_48895df7.png" 
+              src="/manus-storage/deb72751-5e4d-40cf-97f8-889e5a76e2d1_7c902f2d.jpeg" 
               alt="SA Overseas Logo" 
-              className="w-10 h-10"
+              className="w-12 h-12"
             />
-            <span className="hidden sm:inline text-primary">SA Overseas</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -34,7 +34,7 @@ export default function Home() {
     {
       name: 'Dry Fish',
       description: 'Carefully processed dry fish for export markets worldwide.',
-      image: '/manus-storage/fish-oil-product_c1767a2b.png',
+      image: '/manus-storage/dry-fish-product_7cd0d8ea.png',
     },
   ];
 
@@ -194,10 +194,6 @@ export default function Home() {
                     <p className="text-foreground/70 mb-4">
                       {product.description}
                     </p>
-                    <button className="text-primary font-semibold hover:text-primary/80 transition-colors flex items-center gap-1">
-                      Learn More
-                      <ArrowRight className="w-4 h-4" />
-                    </button>
                   </div>
                 </Card>
               ))}
@@ -362,8 +358,8 @@ export default function Home() {
                 </div>
                 <h3 className="font-bold text-foreground mb-3">Phone</h3>
                 <div className="space-y-2 text-foreground/70">
-                  <p>+91 7779007779</p>
                   <p>+91 9173029197</p>
+                  <p>+91 7779007779</p>
                 </div>
               </Card>
 
@@ -382,7 +378,7 @@ export default function Home() {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-foreground mb-3">Location</h3>
-                <p className="text-foreground/70">India</p>
+                <p className="text-foreground/70">Gujarat, India</p>
               </Card>
             </div>
 
@@ -391,11 +387,12 @@ export default function Home() {
               <p className="text-foreground/70 mb-4">
                 Contact us today to discuss your requirements and get a competitive quote for our premium marine feed ingredients.
               </p>
-              <a href="mailto:contact@sa-overseas.co.in">
-                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                  Send Email
-                </Button>
-              </a>
+              <Button 
+                onClick={() => window.location.href = 'mailto:contact@sa-overseas.co.in'}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              >
+                Send Email
+              </Button>
             </div>
           </div>
         </section>

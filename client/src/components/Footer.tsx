@@ -67,8 +67,8 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-sidebar-foreground/60">
             <p>&copy; 2026 SA Overseas. All rights reserved.</p>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-sidebar-accent transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-sidebar-accent transition-colors">Terms & Conditions</a>
+              <a href="/privacy-policy" className="hover:text-sidebar-accent transition-colors">Privacy Policy</a>
+              <a href="/terms-and-conditions" className="hover:text-sidebar-accent transition-colors">Terms & Conditions</a>
             </div>
           </div>
         </div>
