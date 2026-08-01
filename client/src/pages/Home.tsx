@@ -46,8 +46,8 @@ export default function Home() {
     },
     {
       icon: Globe,
-      title: 'Worldwide Export',
-      description: 'Supplying customers across Asia, the Middle East and other global markets.',
+      title: 'Bangladesh Focus',
+      description: 'Dedicated to serving Bangladesh aquaculture and animal feed industries with premium products.',
     },
     {
       icon: Truck,
@@ -64,7 +64,7 @@ export default function Home() {
   const stats = [
     { number: '5+', label: 'Premium Products' },
     { number: '100%', label: 'Quality Commitment' },
-    { number: 'Global', label: 'Export Network' },
+    { number: 'Bangladesh', label: 'Primary Market' },
     { number: '24/7', label: 'Customer Support' },
   ];
 
@@ -82,23 +82,23 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-primary/40 to-transparent"></div>
           
-          <div className="container relative h-full flex flex-col justify-center">
+          <div className="container relative h-full flex flex-col justify-center pb-12 md:pb-0">
             <div className="max-w-2xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-                Premium Marine Feed Ingredients For Global Markets
+                Premium Marine Feed Ingredients For Bangladesh
               </h1>
               <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl">
                 SA Overseas is a trusted exporter of premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish, delivering quality products with dependable logistics for international buyers.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#products">
-                  <Button className="bg-white text-primary hover:bg-white/90 text-base font-semibold px-8 py-6">
+              <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                <a href="#products" className="w-full sm:w-auto">
+                  <Button className="w-full bg-white text-primary hover:bg-white/90 text-base font-semibold px-8 py-6">
                     Explore Products
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </a>
-                <a href="#contact">
-                  <Button variant="outline" className="border-white text-white hover:bg-white/10 text-base font-semibold px-8 py-6">
+                <a href="#contact" className="w-full sm:w-auto">
+                  <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 text-base font-semibold px-8 py-6">
                     Request Quote
                   </Button>
                 </a>
@@ -121,6 +121,26 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Brand Section */}
+        <section className="py-16 md:py-24 bg-background border-b border-border">
+          <div className="container text-center">
+            <div className="mb-4">
+              <img 
+                src="/manus-storage/deb72751-5e4d-40cf-97f8-889e5a76e2d1_7c902f2d.jpeg" 
+                alt="SA Overseas Logo" 
+                className="w-20 h-20 mx-auto mb-6"
+              />
+            </div>
+            <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
+              SA Overseas
+            </h2>
+            <p className="text-2xl md:text-3xl text-primary font-semibold">
+              Global Connections. Reliable Solutions.
+            </p>
+            <div className="w-24 h-1 bg-primary mx-auto mt-6"></div>
+          </div>
+        </section>
+
         {/* About Section */}
         <section id="about" className="py-16 md:py-24 bg-background">
           <div className="container">
@@ -130,10 +150,10 @@ export default function Home() {
                   Your Trusted Export Partner
                 </h2>
                 <p className="text-lg text-foreground/80 mb-4">
-                  SA Overseas specializes in supplying premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish to customers worldwide with a commitment to quality, reliability and customer satisfaction.
+                  SA Overseas specializes in supplying premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish to customers in Bangladesh with a commitment to quality, reliability and customer satisfaction.
                 </p>
                 <p className="text-lg text-foreground/80 mb-8">
-                  We combine premium products, dependable logistics and excellent customer service to build lasting partnerships worldwide.
+                  We combine premium products, dependable logistics and excellent customer service to build lasting partnerships in Bangladesh.
                 </p>
                 <a href="#contact">
                   <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -145,7 +165,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { title: 'Premium Quality', desc: 'International standards' },
-                  { title: 'Global Export', desc: 'Worldwide shipping' },
+                  { title: 'Bangladesh Focus', desc: 'Primary market expertise' },
                   { title: 'Reliable Logistics', desc: 'On-time delivery' },
                   { title: 'Trusted Partnership', desc: 'Long-term relationships' },
                 ].map((item, idx) => (
@@ -209,7 +229,7 @@ export default function Home() {
                 Why Choose SA Overseas
               </h2>
               <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-                We combine premium products, dependable logistics and excellent customer service to build lasting partnerships worldwide.
+                We combine premium products, dependable logistics and excellent customer service to build lasting partnerships in Bangladesh.
               </p>
             </div>
 
