@@ -73,6 +73,26 @@ export default function Home() {
       <Header />
 
       <main className="flex-1">
+        {/* Brand Section */}
+        <section className="py-8 md:py-12 bg-background border-b border-border">
+          <div className="container text-center">
+            <div className="mb-3">
+              <img 
+                src="/manus-storage/deb72751-5e4d-40cf-97f8-889e5a76e2d1_7c902f2d.jpeg" 
+                alt="SA Overseas Logo" 
+                className="w-16 h-16 mx-auto mb-4"
+              />
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
+              SA Overseas
+            </h2>
+            <p className="text-xl md:text-2xl text-primary font-semibold">
+              Global Connections. Reliable Solutions.
+            </p>
+            <div className="w-20 h-1 bg-primary mx-auto mt-4"></div>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="relative h-[500px] md:h-[600px] overflow-hidden bg-gradient-to-b from-primary/10 to-background">
           <img
@@ -118,26 +138,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div>
-        </section>
-
-        {/* Brand Section */}
-        <section className="py-16 md:py-24 bg-background border-b border-border">
-          <div className="container text-center">
-            <div className="mb-4">
-              <img 
-                src="/manus-storage/deb72751-5e4d-40cf-97f8-889e5a76e2d1_7c902f2d.jpeg" 
-                alt="SA Overseas Logo" 
-                className="w-20 h-20 mx-auto mb-6"
-              />
-            </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
-              SA Overseas
-            </h2>
-            <p className="text-2xl md:text-3xl text-primary font-semibold">
-              Global Connections. Reliable Solutions.
-            </p>
-            <div className="w-24 h-1 bg-primary mx-auto mt-6"></div>
           </div>
         </section>
 
