@@ -76,13 +76,6 @@ export default function Home() {
         {/* Brand Section */}
         <section className="py-8 md:py-12 bg-background border-b border-border">
           <div className="container text-center">
-            <div className="mb-3">
-              <img 
-                src="/manus-storage/deb72751-5e4d-40cf-97f8-889e5a76e2d1_7c902f2d.jpeg" 
-                alt="SA Overseas Logo" 
-                className="w-16 h-16 mx-auto mb-4"
-              />
-            </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               SA Overseas
             </h2>
