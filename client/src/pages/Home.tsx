@@ -14,27 +14,27 @@ export default function Home() {
     {
       name: 'Fish Meal',
       description: 'High-protein marine ingredient used in aquaculture and animal feed.',
-      image: '/manus-storage/fish-meal-product_1ec8d19c.png',
+      image: '/assets/fish-meal-product.webp',
     },
     {
       name: 'Fish Oil',
       description: 'Rich in Omega fatty acids for aquaculture, livestock and pet nutrition.',
-      image: '/manus-storage/fish-oil-product_c1767a2b.png',
+      image: '/assets/fish-oil-product.webp',
     },
     {
       name: 'Shrimp Meal',
       description: 'Nutritious shrimp-based ingredient with excellent protein content.',
-      image: '/manus-storage/shrimp-meal-product_a7701d19.png',
+      image: '/assets/shrimp-meal-product.webp',
     },
     {
       name: 'Poultry Meal',
       description: 'Premium poultry protein suitable for animal feed production.',
-      image: '/manus-storage/fish-meal-product_1ec8d19c.png',
+      image: '/assets/fish-meal-product.webp',
     },
     {
       name: 'Dry Fish',
       description: 'Carefully processed dry fish for export markets worldwide.',
-      image: '/manus-storage/dry-fish-product_7cd0d8ea.png',
+      image: '/assets/dry-fish-product.webp',
     },
   ];
 
@@ -89,7 +89,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative h-[500px] md:h-[600px] overflow-hidden bg-gradient-to-b from-primary/10 to-background">
           <img
-            src="/manus-storage/hero-fish-ocean_ceed8422.png"
+            src="/assets/hero-fish-ocean.webp"
             alt="Ocean with fish"
             className="absolute inset-0 w-full h-full object-cover"
           />
