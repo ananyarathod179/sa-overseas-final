@@ -28,7 +28,7 @@ export default function Header() {
             <img 
               src="/assets/sa-overseas-logo.webp" 
               alt="SA Overseas Logo" 
-              className="w-12 h-12"
+              className="h-12 w-auto max-w-[180px] object-contain sm:h-14 sm:max-w-[220px]"
             />
           </Link>
 
