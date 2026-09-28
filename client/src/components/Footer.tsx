@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">SA Overseas</h3>
             <p className="text-sm text-sidebar-foreground/80 mb-4">
-              Trusted exporter of premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish from India to global markets.
+              Trusted exporter of premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish from India to domestic and international markets.
             </p>
             <p className="text-xs text-sidebar-foreground/60">Global Connections. Reliable Solutions.</p>
           </div>
