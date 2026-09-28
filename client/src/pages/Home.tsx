@@ -33,7 +33,7 @@ export default function Home() {
     },
     {
       name: 'Dry Fish',
-      description: 'Carefully processed dry fish for export markets worldwide.',
+      description: 'Carefully processed dry fish for domestic and international markets.',
       image: '/assets/dry-fish-product.webp',
     },
   ];
@@ -46,8 +46,8 @@ export default function Home() {
     },
     {
       icon: Globe,
-      title: 'Bangladesh Focus',
-      description: 'Dedicated to serving Bangladesh aquaculture and animal feed industries with premium products.',
+      title: 'Domestic & International Markets',
+      description: 'Dedicated to serving aquaculture and animal feed industries across domestic and international markets.',
     },
     {
       icon: Truck,
@@ -64,7 +64,7 @@ export default function Home() {
   const stats = [
     { number: '5+', label: 'Premium Products' },
     { number: '100%', label: 'Quality Commitment' },
-    { number: 'Bangladesh', label: 'Primary Market' },
+    { number: 'Domestic + International', label: 'Markets Served' },
     { number: '24/7', label: 'Customer Support' },
   ];
 
@@ -87,7 +87,7 @@ export default function Home() {
         </section>
 
         {/* Hero Section */}
-        <section className="relative h-[500px] md:h-[600px] overflow-hidden bg-gradient-to-b from-primary/10 to-background">
+        <section className="relative min-h-[680px] md:min-h-0 md:h-[600px] overflow-hidden bg-gradient-to-b from-primary/10 to-background">
           <img
             src="/assets/hero-fish-ocean.webp"
             alt="Ocean with fish"
@@ -98,10 +98,10 @@ export default function Home() {
           <div className="container relative h-full flex flex-col justify-center pb-12 md:pb-0">
             <div className="max-w-2xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-                Premium Marine Feed Ingredients For Bangladesh
+                Premium Marine Feed Ingredients for Domestic & International Markets
               </h1>
               <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl">
-                SA Overseas is a trusted exporter of premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish, delivering quality products with dependable logistics for international buyers.
+                SA Overseas is a trusted exporter of premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish, delivering quality products with dependable logistics for domestic and international buyers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
                 <a href="#products" className="w-full sm:w-auto">
@@ -143,10 +143,10 @@ export default function Home() {
                   Your Trusted Export Partner
                 </h2>
                 <p className="text-lg text-foreground/80 mb-4">
-                  SA Overseas specializes in supplying premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish to customers in Bangladesh with a commitment to quality, reliability and customer satisfaction.
+                  SA Overseas specializes in supplying premium Fish Meal, Fish Oil, Shrimp Meal, Poultry Meal and Dry Fish to customers across domestic and international markets with a commitment to quality, reliability and customer satisfaction.
                 </p>
                 <p className="text-lg text-foreground/80 mb-8">
-                  We combine premium products, dependable logistics and excellent customer service to build lasting partnerships in Bangladesh.
+                  We combine premium products, dependable logistics and excellent customer service to build lasting partnerships across domestic and international markets.
                 </p>
                 <a href="#contact">
                   <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -158,7 +158,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { title: 'Premium Quality', desc: 'International standards' },
-                  { title: 'Bangladesh Focus', desc: 'Primary market expertise' },
+                  { title: 'Domestic & International', desc: 'Market expertise' },
                   { title: 'Reliable Logistics', desc: 'On-time delivery' },
                   { title: 'Trusted Partnership', desc: 'Long-term relationships' },
                 ].map((item, idx) => (
@@ -222,7 +222,7 @@ export default function Home() {
                 Why Choose SA Overseas
               </h2>
               <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-                We combine premium products, dependable logistics and excellent customer service to build lasting partnerships in Bangladesh.
+                We combine premium products, dependable logistics and excellent customer service to build lasting partnerships across domestic and international markets.
               </p>
             </div>
 
@@ -254,19 +254,19 @@ export default function Home() {
           <div className="container">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-                Primary Export Market
+                Domestic & International Markets
               </h2>
               <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-                Delivering premium marine feed ingredients to Bangladesh with reliable logistics and complete export support.
+                Delivering premium marine feed ingredients across domestic and international markets with reliable logistics and complete export support.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg border border-border">
-                  <h3 className="text-2xl font-bold text-primary mb-2">Bangladesh</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-2">Domestic & International Markets</h3>
                   <p className="text-foreground/70 mb-4">
-                    Our primary export destination, supplying premium marine feed ingredients with reliable logistics and complete export support.
+                    Serving customers across domestic and international markets with premium marine feed ingredients, reliable logistics and complete export support.
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
@@ -283,10 +283,10 @@ export default function Home() {
                 <div className="bg-white p-6 rounded-lg border border-border">
                   <h3 className="font-semibold text-foreground mb-3 flex items-center gap-2">
                     <Globe className="w-5 h-5 text-primary" />
-                    Global Expansion
+                    Market Expansion
                   </h3>
                   <p className="text-foreground/70 text-sm">
-                    Expanding to serve customers across Asia, the Middle East and Africa with the same commitment to quality and reliability.
+                    Building lasting partnerships across domestic and international markets with the same commitment to quality and reliability.
                   </p>
                 </div>
               </div>
